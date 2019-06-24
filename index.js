@@ -1,6 +1,7 @@
 // Write your code in this file!
 let fare = '';
 let distance = 0;
+let city = '';
 
 function scuberGreetingForFeet(distance) {
   if (distance <= 400) {
@@ -10,6 +11,8 @@ function scuberGreetingForFeet(distance) {
   } else if (distance > 2500) {
     return 'No can do.';
   }
-  
-  
+}
+
+function ternaryCheckCity(city) {
+  city = 'NYC' ? 'Ok, sounds good.' : ''
 }
